@@ -4,10 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import Counter from './components/counter';
+import Dropdown_1 from './components/counter';
+import Navbar_1 from './components/navbar';
+import SideNav from './components/sidebar';
+
 
 ReactDOM.render(
-<Counter />,
+  <div>
+  <SideNav />
+  <Navbar_1 />
+  <Dropdown_1/>
+</div>, 
+
   document.getElementById('root')
 );
 
