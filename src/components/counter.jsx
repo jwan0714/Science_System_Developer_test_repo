@@ -43,7 +43,7 @@ export class Dropdown_1 extends Component {
         </p>
 
         <Select
-          placeholder="Type to match nothing 😱"
+          placeholder=""
           multi
           noDataRenderer={this.customNoDataRenderer}
           onChange={() => undefined}
